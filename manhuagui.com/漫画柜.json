@@ -1,0 +1,391 @@
+{
+  "name": "\u6f2b\u753b\u67dc",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300c\u6f2b\u753b\u67dc\u300d\u6700\u65b0\u66f4\u65b0\u7684\u6f2b\u753b",
+  "category": "indexer",
+  "revision": 1791126398,
+  "definition": {
+    "nodes": [
+      {
+        "id": "mh-search",
+        "type": "node",
+        "position": {
+          "x": 210,
+          "y": 310
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "search_start",
+          "config": "only_preview: true\ndisplay:\n  page_size: 10\n  view_modes:\n  - grid\n  cover_ratio: 3/4\nkeyword:\n  global: true\n  required: false\n"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-search-input",
+        "type": "node",
+        "position": {
+          "x": 900,
+          "y": 190
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import quote\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Build an observed search, update, book, or chapter URL.\n\n    Args:\n        node_id: The current node identifier.\n        node_data: The script node configuration.\n        context: The workflow input parameters.\n\n    Raises:\n        ValueError: If a book or chapter identifier is invalid.\n    \"\"\"\n    base = \"https://www.manhuagui.com\"\n    if context.get(\"$start\") == \"search_start\":\n        keyword = str(context.get(\"keyword\") or \"\").strip()\n        page = max(1, int(context.get(\"page_num\") or 1))\n        suffix = \"\" if page == 1 else \"_p\" + str(page)\n        context[\"request_url\"] = base + (\n            \"/s/\" + quote(keyword, safe=\"\") + suffix + \".html\"\n            if keyword\n            else \"/update/\"\n        )\n        context[\"is_search\"] = bool(keyword)\n        return\n    book_id = str(context.get(\"id\") or \"\")\n    chapter_id = str(context.get(\"chapter_id\") or \"\")\n    if not book_id.isdecimal() or (chapter_id and not chapter_id.isdecimal()):\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u65e0\u6548\u7684\u6f2b\u753b\u6216\u7ae0\u8282 ID\")\n    context[\"request_url\"] = (\n        base + \"/comic/\" + book_id + \"/\" + (chapter_id + \".html\" if chapter_id else \"\")\n    )\n"
+          }
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-list",
+        "type": "node",
+        "position": {
+          "x": 1660,
+          "y": 40
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 30,
+          "method": "GET",
+          "url": "{{request_url}}",
+          "body": "",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.manhuagui.com/"
+            }
+          ],
+          "formatter": "{% set rows = response.text|xpath_all('//div[contains(@class,\"book-result\")]//li[div[contains(@class,\"book-cover\")]]') if is_search else response.text|xpath_all('//div[@class=\"latest-list\"]/ul/li') %}\n{\n  \"status\": {{ response.status_code }},\n  \"valid_page\": {{ (response.text|xpath('boolean(//div[@class=\"book-result\"])') if is_search else response.text|xpath('boolean(//div[@class=\"latest-list\"])'))|tojson }},\n  \"pagination\": {{ response.text|xpath_all('//*[@id=\"AspNetPagerResult\"]//a/@href')|tojson }},\n  \"items\": [\n  {% for row in rows %}\n    {% set link = row|xpath('(.//a[starts-with(@href,\"/comic/\")]/@href)[1]') %}\n    {% set cover = row|xpath('(.//img/@data-src|.//img/@src)[1]') %}\n    {\n      \"id\": {{ link.strip('/').split('/')[-1]|tojson }},\n      \"title\": {{ row|xpath('(.//a[starts-with(@href,\"/comic/\")]/@title)[1]')|tojson }},\n      \"cover\": {{ (('https:' + cover) if cover.startswith('//') else cover)|tojson }},\n      \"misc\": {{ row|xpath('string(.//span[@class=\"tt\"])')|tojson }},\n      \"rating\": {{ row|xpath('string(.//p[@class=\"score-avg\"]/strong)')|tojson }},\n      \"uploaded_at\": {{ row|xpath('string(.//span[@class=\"dt\"]/em)')|tojson }}\n    }{{ ',' if not loop.last }}\n  {% endfor %}\n  ]\n}\n"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-search-result",
+        "type": "node",
+        "position": {
+          "x": 2390,
+          "y": 190
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import re\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Preserve native search pagination and return the complete updates page.\n\n    Args:\n        node_id: The current node identifier.\n        node_data: The script node configuration.\n        context: The parsed page fields and workflow parameters.\n\n    Raises:\n        ValueError: If the request fails or the expected page is missing.\n    \"\"\"\n    if context.get(\"status\") != 200 or not context.get(\"valid_page\"):\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u5217\u8868\u9875\u9762\u4e0d\u53ef\u7528\u6216\u9875\u9762\u7ed3\u6784\u5df2\u53d8\u5316\")\n    items = context[\"items\"]\n    for item in items:\n        item[\"rating\"] = float(item[\"rating\"]) if item[\"rating\"] else None\n    page = max(1, int(context.get(\"page_num\") or 1))\n    if context[\"is_search\"]:\n        pages = [\n            int(match.group(1))\n            for href in context[\"pagination\"]\n            if (match := re.search(r\"_p(\\d+)\\.html\", href))\n        ]\n        context[\"result\"] = {\"items\": items, \"totalPages\": max([page] + pages)}\n    else:\n        context[\"result\"] = {\"items\": items, \"totalPages\": 1}\n"
+          }
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-search-end",
+        "type": "node",
+        "position": {
+          "x": 3060,
+          "y": 320
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "search_end",
+          "response": "{{result|tojson}}"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-details",
+        "type": "node",
+        "position": {
+          "x": 210,
+          "y": 1540
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "details_start",
+          "config": "specific:\n  media_type: image\n"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-details-input",
+        "type": "node",
+        "position": {
+          "x": 900,
+          "y": 1390
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import quote\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Build an observed search, update, book, or chapter URL.\n\n    Args:\n        node_id: The current node identifier.\n        node_data: The script node configuration.\n        context: The workflow input parameters.\n\n    Raises:\n        ValueError: If a book or chapter identifier is invalid.\n    \"\"\"\n    base = \"https://www.manhuagui.com\"\n    if context.get(\"$start\") == \"search_start\":\n        keyword = str(context.get(\"keyword\") or \"\").strip()\n        page = max(1, int(context.get(\"page_num\") or 1))\n        suffix = \"\" if page == 1 else \"_p\" + str(page)\n        context[\"request_url\"] = base + (\n            \"/s/\" + quote(keyword, safe=\"\") + suffix + \".html\"\n            if keyword\n            else \"/update/\"\n        )\n        context[\"is_search\"] = bool(keyword)\n        return\n    book_id = str(context.get(\"id\") or \"\")\n    chapter_id = str(context.get(\"chapter_id\") or \"\")\n    if not book_id.isdecimal() or (chapter_id and not chapter_id.isdecimal()):\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u65e0\u6548\u7684\u6f2b\u753b\u6216\u7ae0\u8282 ID\")\n    context[\"request_url\"] = (\n        base + \"/comic/\" + book_id + \"/\" + (chapter_id + \".html\" if chapter_id else \"\")\n    )\n"
+          }
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-has-chapter",
+        "type": "node",
+        "position": {
+          "x": 3060,
+          "y": 1620
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "condition",
+          "expression": "{{chapter_id|default('')}}"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-chapter",
+        "type": "node",
+        "position": {
+          "x": 3670,
+          "y": 910
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 30,
+          "method": "GET",
+          "url": "{{request_url}}",
+          "body": "",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.manhuagui.com/comic/{{id}}/"
+            }
+          ],
+          "formatter": "{\"status\": {{ response.status_code }}, \"response\": {{ response.text|tojson }}}"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-images",
+        "type": "node",
+        "position": {
+          "x": 4420,
+          "y": 940
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "import json\nimport re\nfrom urllib.parse import quote, urlencode\n\n\ndef decompress_base64(value):\n    \"\"\"Decode the page's LZ dictionary without executing downloaded JavaScript.\n\n    Args:\n        value: The base64-encoded LZ string.\n\n    Returns:\n        The decompressed dictionary text.\n\n    Raises:\n        ValueError: If the compressed dictionary is malformed.\n    \"\"\"\n    alphabet = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\"\n    values = [alphabet.index(char) for char in value]\n    bit_offset = 0\n\n    def read_bits(width):\n        \"\"\"Read a little-endian integer from the compressed bit stream.\n\n        Args:\n            width: The number of bits to consume.\n\n        Returns:\n            The decoded integer.\n\n        Raises:\n            ValueError: If the stream ends before the integer is complete.\n        \"\"\"\n        nonlocal bit_offset\n        result = 0\n        for index in range(width):\n            if bit_offset // 6 >= len(values):\n                raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u56fe\u7247\u5b57\u5178\u622a\u65ad\")\n            bit = (values[bit_offset // 6] >> (5 - bit_offset % 6)) & 1\n            result |= bit << index\n            bit_offset += 1\n        return result\n\n    marker = read_bits(2)\n    if marker == 2:\n        return \"\"\n    previous = chr(read_bits(8 if marker == 0 else 16))\n    dictionary = [\"\", \"\", \"\", previous]\n    output = [previous]\n    width, remaining = 3, 4\n    while True:\n        code = read_bits(width)\n        if code == 2:\n            return \"\".join(output)\n        if code in (0, 1):\n            dictionary.append(chr(read_bits(8 if code == 0 else 16)))\n            code = len(dictionary) - 1\n            remaining -= 1\n        if remaining == 0:\n            remaining = 1 << width\n            width += 1\n        if code < len(dictionary):\n            entry = dictionary[code]\n        elif code == len(dictionary):\n            entry = previous + previous[0]\n        else:\n            raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u56fe\u7247\u5b57\u5178\u65e0\u6548\")\n        output.append(entry)\n        dictionary.append(previous + entry[0])\n        remaining -= 1\n        previous = entry\n        if remaining == 0:\n            remaining = 1 << width\n            width += 1\n\n\ndef unpack_images(source):\n    \"\"\"Extract the reader data from its packed string and compressed dictionary.\n\n    Args:\n        source: The chapter page HTML.\n\n    Returns:\n        The parsed image metadata, including current URL signatures.\n\n    Raises:\n        ValueError: If the page does not contain supported reader data.\n    \"\"\"\n    match = re.search(\n        r\"return p;}\\('((?:\\\\.|[^'\\\\])*)',(\\d+),(\\d+),'([^']+)'\\[\", source\n    )\n    if not match:\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u672a\u627e\u5230\u56fe\u7247\u6570\u636e\uff0c\u9875\u9762\u7ed3\u6784\u53ef\u80fd\u5df2\u53d8\u5316\")\n    packed, radix, count, compressed = match.groups()\n    if int(radix) != 62:\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u4e0d\u652f\u6301\u7684\u56fe\u7247\u7f16\u7801\")\n    dictionary = decompress_base64(compressed).split(\"|\")\n    digits = \"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n\n    def replace_token(match):\n        \"\"\"Replace one encoded word using the chapter dictionary.\n\n        Args:\n            match: The encoded word match.\n\n        Returns:\n            The dictionary value or the original word.\n        \"\"\"\n        token = match.group(0)\n        index = 0\n        for char in token:\n            if char not in digits:\n                return token\n            index = index * 62 + digits.index(char)\n        return (\n            dictionary[index]\n            if index < min(int(count), len(dictionary)) and dictionary[index]\n            else token\n        )\n\n    unpacked = re.sub(r\"\\b[0-9a-zA-Z]+\\b\", replace_token, packed)\n    data_match = re.search(r\"\\.imgData\\((\\{.*\\})\\)\\.preInit\\(\\)\", unpacked)\n    if not data_match:\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u56fe\u7247\u914d\u7f6e\u65e0\u6548\")\n    return json.loads(data_match.group(1))\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Return signed image URLs for the requested public chapter.\n\n    Args:\n        node_id: The current node identifier.\n        node_data: The script node configuration.\n        context: The chapter HTML and reader input parameters.\n\n    Raises:\n        ValueError: If the chapter is unavailable or its file list is incomplete.\n    \"\"\"\n    if context.get(\"status\") != 200:\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u7ae0\u8282\u8bf7\u6c42\u5931\u8d25\")\n    data = unpack_images(context[\"response\"])\n    files = data.get(\"files\") or []\n    if not files or len(files) != int(data[\"len\"]):\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u56fe\u7247\u5217\u8868\u4e0d\u5b8c\u6574\")\n    signature = urlencode(data.get(\"sl\") or {})\n    referer = context[\"request_url\"]\n    images = [\n        \"https://eu2.hamreus.com\"\n        + quote(data[\"path\"] + filename, safe=\"/\")\n        + \"?\"\n        + signature\n        + \"&\"\n        + urlencode({\"proxy\": \"true\", \"referer\": referer})\n        for filename in files\n    ]\n    context[\"result\"] = {\n        \"id\": str(data[\"bid\"]),\n        \"title\": data[\"bname\"] + \" \u00b7 \" + data[\"cname\"],\n        \"media_type\": \"image\",\n        \"images\": images,\n        \"image_count\": len(images),\n        \"chapters\": context[\"chapters\"],\n    }\n"
+          }
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-book",
+        "type": "node",
+        "position": {
+          "x": 1660,
+          "y": 1320
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 30,
+          "method": "GET",
+          "url": "https://www.manhuagui.com/comic/{{id}}/",
+          "body": "",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.manhuagui.com/"
+            }
+          ],
+          "formatter": "{\n  \"status\": {{ response.status_code }},\n  \"book_title\": {{ response.text|xpath('string(//h1)')|tojson }},\n  \"chapters\": [\n  {% for group in response.text|xpath_all('//div[contains(@class,\"chapter-list\")]') %}\n    {% for chapter in group|xpath_all('.//a[starts-with(@href,\"/comic/\")]')|reverse %}\n      {\"id\": {{ chapter|xpath('./@href')|regex_first('/(\\d+)\\.html')|tojson }}, \"title\": {{ chapter|xpath('./@title')|tojson }}}{% if not loop.last %},{% endif %}\n    {% endfor %}{% if not loop.last %},{% endif %}\n  {% endfor %}\n  ]\n}\n"
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-catalog",
+        "type": "node",
+        "position": {
+          "x": 2390,
+          "y": 1390
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "def execute(node_id, node_data, context):\n    \"\"\"Return the complete chapter list from the book page.\n\n    Args:\n        node_id: The current node identifier.\n        node_data: The script node configuration.\n        context: The parsed book page and workflow input.\n\n    Raises:\n        ValueError: If the book page is missing its title or catalog.\n    \"\"\"\n    if (\n        context.get(\"status\") != 200\n        or not context.get(\"book_title\")\n        or not context.get(\"chapters\")\n    ):\n        raise ValueError(\"\u6f2b\u753b\u67dc\uff1a\u6f2b\u753b\u76ee\u5f55\u4e0d\u53ef\u7528\u6216\u9700\u8981\u5728\u539f\u7ad9\u8bbf\u95ee\")\n    context[\"result\"] = {\n        \"id\": str(context[\"id\"]),\n        \"title\": context[\"book_title\"],\n        \"media_type\": \"image\",\n        \"chapters\": context[\"chapters\"],\n    }\n"
+          }
+        },
+        "measured": {},
+        "selected": false
+      },
+      {
+        "id": "mh-details-end",
+        "type": "node",
+        "position": {
+          "x": 5100,
+          "y": 1670
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "details_end",
+          "response": "{{result|tojson}}"
+        },
+        "measured": {},
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "xy-edge__mh-searchoutput-mh-search-inputinput",
+        "source": "mh-search",
+        "sourceHandle": "output",
+        "target": "mh-search-input",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-search-inputoutput-mh-listinput",
+        "source": "mh-search-input",
+        "sourceHandle": "output",
+        "target": "mh-list",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-listoutput-mh-search-resultinput",
+        "source": "mh-list",
+        "sourceHandle": "output",
+        "target": "mh-search-result",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-search-resultoutput-mh-search-endinput",
+        "source": "mh-search-result",
+        "sourceHandle": "output",
+        "target": "mh-search-end",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-detailsoutput-mh-details-inputinput",
+        "source": "mh-details",
+        "sourceHandle": "output",
+        "target": "mh-details-input",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-details-inputoutput-mh-bookinput",
+        "source": "mh-details-input",
+        "sourceHandle": "output",
+        "target": "mh-book",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-chapteroutput-mh-imagesinput",
+        "source": "mh-chapter",
+        "sourceHandle": "output",
+        "target": "mh-images",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-imagesoutput-mh-details-endinput",
+        "source": "mh-images",
+        "sourceHandle": "output",
+        "target": "mh-details-end",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-bookoutput-mh-cataloginput",
+        "source": "mh-book",
+        "sourceHandle": "output",
+        "target": "mh-catalog",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-catalogoutput-mh-has-chapterinput",
+        "source": "mh-catalog",
+        "sourceHandle": "output",
+        "target": "mh-has-chapter",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-has-chapteris_true-mh-chapterinput",
+        "source": "mh-has-chapter",
+        "sourceHandle": "is_true",
+        "target": "mh-chapter",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__mh-has-chapteris_false-mh-details-endinput",
+        "source": "mh-has-chapter",
+        "sourceHandle": "is_false",
+        "target": "mh-details-end",
+        "targetHandle": "input"
+      }
+    ]
+  }
+}

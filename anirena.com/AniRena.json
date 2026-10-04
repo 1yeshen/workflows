@@ -1,0 +1,116 @@
+{
+  "name": "AniRena",
+  "icon": "data:image/webp;base64,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",
+  "description": "\u300cAniRena\u300d\u8d44\u6e90\u641c\u7d22",
+  "category": "indexer",
+  "revision": 1791126398,
+  "definition": {
+    "nodes": [
+      {
+        "id": "ar-search",
+        "type": "node",
+        "position": {
+          "x": 210,
+          "y": 210
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "search_start",
+          "config": "display:\n  page_size: 100\n  view_modes:\n  - table\nkeyword:\n  global: true\n  required: false\nfilters:\n  sort:\n    type: select\n    label: \u6392\u5e8f\n    options:\n      date: \u53d1\u5e03\u65f6\u95f4\n      name: \u540d\u79f0\n      size: \u6587\u4ef6\u5927\u5c0f\n      downloaded: \u5b8c\u6210\u6b21\u6570\n      uploader: \u4e0a\u4f20\u8005\n  order:\n    type: radio\n    label: \u987a\u5e8f\n    options:\n      desc: \u964d\u5e8f\n      asc: \u5347\u5e8f\n"
+        }
+      },
+      {
+        "id": "ar-list",
+        "type": "node",
+        "position": {
+          "x": 820,
+          "y": 40
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "http",
+          "client": "httpx",
+          "timeout": 30,
+          "method": "GET",
+          "url": "https://www.anirena.com/?q={{keyword|default('')|urlencode}}&page={{page_num|default(1)}}&per_page=100&sort={{sort|default('date',true)}}&order={{order|default('desc',true)}}",
+          "body": "",
+          "headers": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0"
+            },
+            {
+              "key": "Referer",
+              "value": "https://www.anirena.com/"
+            }
+          ],
+          "formatter": "{% set rows = response.text|xpath_all('//table[contains(@class,\"tl-table\")]//tr[@data-torrent-id]') %}\n{\n  \"status\": {{ response.status_code }},\n  \"valid_page\": {{ response.text|xpath('boolean(//*[@id=\"page-home\"])')|tojson }},\n  \"pagination\": {{ response.text|xpath_all('//nav[@id=\"tl-pagination-top\"]/a/@href')|tojson }},\n  \"items\": [\n{% for row in rows %}\n    {\n      \"id\": {{ row|xpath('./@data-torrent-id')|tojson }},\n      \"title\": {{ (row|xpath('string(.//a[@class=\"tl-group\"])') + ' ' + row|xpath('string(.//a[contains(@class,\"tl-torrent-name\")])'))|trim|tojson }},\n      \"link\": {{ ('https://www.anirena.com' + row|xpath('(.//a[contains(@href,\".torrent\")]/@href)[1]'))|tojson }},\n      \"size\": {{ row|xpath('string(./td[contains(@class,\"col-size\")])')|trim|tojson }},\n      \"category\": {{ row|xpath('./td[contains(@class,\"col-cat\")]/@title')|tojson }},\n      \"uploader\": {{ row|xpath('(.//a[@data-uploader]/@data-uploader)[1]')|tojson }},\n      \"uploaded_at\": {{ (row|xpath('(.//*[@data-utc]/@data-utc)[1]') + ' UTC')|tojson }},\n      \"misc\": {{ ('\u2191 ' + row|xpath('string(./td[contains(@class,\"col-se\")]/span[1])') + ' / \u2193 ' + row|xpath('string(./td[contains(@class,\"col-le\")]/span[1])'))|tojson }}\n    }{{ ',' if not loop.last }}\n{% endfor %}\n  ]\n}\n"
+        }
+      },
+      {
+        "id": "ar-result",
+        "type": "node",
+        "position": {
+          "x": 1570,
+          "y": 190
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "script",
+          "script": {
+            "language": "python",
+            "code": "from urllib.parse import parse_qs, urlsplit\n\n\ndef execute(node_id, node_data, context):\n    \"\"\"Validate the listing and expose its results and pagination.\n\n    Args:\n        node_id: The workflow node identifier.\n        node_data: The node configuration.\n        context: The listing response and search parameters.\n\n    Raises:\n        ValueError: If the response is an error or an unexpected page.\n    \"\"\"\n    if context.get(\"status\") != 200 or not context.get(\"valid_page\"):\n        raise ValueError(\"AniRena did not return a torrent listing\")\n    page = max(1, int(context.get(\"page_num\") or 1))\n    pages = [page]\n    for href in context.get(\"pagination\", []):\n        value = parse_qs(urlsplit(href).query).get(\"page\", [\"1\"])[0]\n        if value.isdigit():\n            pages.append(int(value))\n    context[\"result\"] = {\"items\": context.get(\"items\", []), \"totalPages\": max(pages)}\n"
+          }
+        }
+      },
+      {
+        "id": "ar-end",
+        "type": "node",
+        "position": {
+          "x": 2260,
+          "y": 320
+        },
+        "origin": [
+          0.5,
+          0
+        ],
+        "data": {
+          "$schema": "search_end",
+          "response": "{{ result|tojson }}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "xy-edge__ar-searchoutput-ar-listinput",
+        "source": "ar-search",
+        "sourceHandle": "output",
+        "target": "ar-list",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__ar-listoutput-ar-resultinput",
+        "source": "ar-list",
+        "sourceHandle": "output",
+        "target": "ar-result",
+        "targetHandle": "input"
+      },
+      {
+        "id": "xy-edge__ar-resultoutput-ar-endinput",
+        "source": "ar-result",
+        "sourceHandle": "output",
+        "target": "ar-end",
+        "targetHandle": "input"
+      }
+    ]
+  }
+}
